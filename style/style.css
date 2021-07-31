@@ -1,0 +1,120 @@
+.page {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.footer {
+	margin-top: auto;
+}
+.accordeon {
+	margin: 0px 0px 100px 0px;
+}
+.about {
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1 {
+	color: #f97300;
+	margin: 2em;
+}
+.about img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+.about span {
+	display: block;
+	color: #888;
+}
+.about .desc {
+	padding: 2em;
+	border-left: 4px solid #10828c;
+}
+.about .desc h3 {
+	color: #10828c;
+}
+.about .desc p {
+	line-height: 2;
+	color: #888;
+}
+
+.footer {
+	padding: 20px 0px;
+	text-align: center;
+	font-weight: 800;
+	background-color: black;
+	color: #fff;
+}
+
+.feedback {
+	padding: 125px 0px 165px 0px;
+	background-color: #ff4500;
+	text-align: center;
+}
+.fa-camera,
+.fa-phone,
+.fa-envelope {
+	font-size: 62px;
+	color: #fff;
+}
+.circle {
+	background-color: #000;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto 35px;
+}
+
+.feedback p {
+	font-size: 20px;
+}
+.feedback input,
+textarea,
+button {
+	padding: 30px;
+	width: 100%;
+	border-radius: 10px;
+	border: none;
+}
+
+.feedback textarea {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	resize: none;
+}
+.feedback button {
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+.feedback button:hover {
+	opacity: 0.8;
+}
+.form {
+	margin-top: 70px;
+}
+
+.accordeon {
+	margin-top: 100px;
+}
+.accordion-button:not(.collapsed) {
+	color: black;
+}
+
+.table {
+	margin-top: 50px;
+}
+
+.h1__block {
+	margin-top: 100px;
+}
+
+.carousel {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
